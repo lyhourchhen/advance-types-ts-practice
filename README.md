@@ -3,8 +3,8 @@
 ### Warm Up
 
 ```ts
-// hello
-const helloWorld: string = "hi";
+type HelloWorld = string;
+const helloWorld: HelloWorld = "hi";
 ```
 
 ### Easy
