@@ -10,6 +10,7 @@ const helloWorld: HelloWorld = "hi";
 ### Easy
 
 ```ts
+// Implement Pick built in.
 type MyPick<T, K extends keyof T> = {
   [P in K]: T[P];
 };
