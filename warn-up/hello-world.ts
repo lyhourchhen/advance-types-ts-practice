@@ -1,0 +1,1 @@
+const helloWorld: string = "helloWorld";

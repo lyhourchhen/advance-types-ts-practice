@@ -1,15 +1,3 @@
-# Advance Type Practice
-
-### Warm Up
-
-```ts
-// hello
-const helloWorld: string = "hi";
-```
-
-### Easy
-
-```ts
 type MyPick<T, K extends keyof T> = {
   [P in K]: T[P];
 };
@@ -35,8 +23,3 @@ type Includes<T extends readonly any[], U extends any> = {
 }[U] extends true
   ? true
   : false;
-```
-
-### More
-
-- [type-challenges](https://github.com/type-challenges)

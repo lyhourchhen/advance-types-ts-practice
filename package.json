@@ -1,0 +1,11 @@
+{
+  "name": "advance-types-ts-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:LyhourChhen/advance-types-ts-practice.git",
+  "author": "lyhourchhen <ukamilove66@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
